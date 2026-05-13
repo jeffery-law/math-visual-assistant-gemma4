@@ -1,8 +1,12 @@
 # Virtual Environment
-.venv/
-env/
 venv/
-ENV/
+.venv/
+__pycache__/
+*.pyc
+.DS_Store
+.env
+flagged/
+
 
 # Python Cache
 __pycache__/
