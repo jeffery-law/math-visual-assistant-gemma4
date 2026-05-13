@@ -1,0 +1,30 @@
+# Virtual Environment
+venv/
+env/
+.venv/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Project outputs
+outputs/
+*.log
+
+# Large files (important!)
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.pdf
+!examples/*.jpg
+!examples/*.png
+
+# Ollama
+ollama/
+models/
+
+# VS Code
+.vscode/
