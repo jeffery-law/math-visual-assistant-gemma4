@@ -1,0 +1,6 @@
+gradio>=5.0
+Pillow
+opencv-python-headless
+ollama
+requests
+python-dotenv

@@ -1,30 +1,19 @@
 # Virtual Environment
-venv/
-env/
 .venv/
+env/
+venv/
+ENV/
 
-# Python
+# Python Cache
 __pycache__/
-*.pyc
-*.pyo
-*.pyd
+*.py[cod]
+*$py.class
 
-# Project outputs
-outputs/
-*.log
+# Gradio/OS Temp files
+flagged/
+.DS_Store
 
-# Large files (important!)
+# Images (if you are saving them)
 *.jpg
 *.jpeg
 *.png
-*.gif
-*.pdf
-!examples/*.jpg
-!examples/*.png
-
-# Ollama
-ollama/
-models/
-
-# VS Code
-.vscode/
